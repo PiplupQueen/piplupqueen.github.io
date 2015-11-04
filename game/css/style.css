@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:900);
+
+body {
+  background-image: url("http://piplupqueen.github.io/copy.jpg");
+  background-size:cover;
+  font-family: Orbitron ;
+  font-size: 25px;
+  color: white;
+}
+
+
+@keyframes example {
+    0% {
+      font-size:0em;
+      margin-left:0em;
+      margin-top:0em;
+      transform:rotate(360deg);
+  }
+  
+  75%{
+    font-size:2em;
+      margin-left:11em;
+      margin-top:9em;
+      transform:rotate(0deg);
+    }
+  100%{
+    font-size:2em;
+    margin-left:11em;
+    margin-top:9em;
+    
+  }
+  
+}
+  
+
+#start {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    margin-left:11em;
+    margin-top:9em;
+  font-size:2em;
+  
+}
