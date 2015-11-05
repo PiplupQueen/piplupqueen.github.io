@@ -103,29 +103,29 @@ body {
   }
   10% {
     transform: translateY(-2em);
-    margin-left: 20em;
+    margin-left: 15em;
   }
   
   20% {
     transform: translateY(0em);
-    margin-left: 40em;
+    margin-left: 25em;
   }
   
   40% {
     transform: translateY(2em);
-    margin-left: 50em;
+    margin-left: 45em;
     transform: scaleX(-1);
   }
   
   60% {
     transform: translateY(0em);
-    margin-left: 40em;
+    margin-left: 25em;
     transform: scaleX(-1);
   }
   
   80% {
     transform: translateY(-8em);
-    margin-left: 20em;
+    margin-left: 15em;
     transform: scaleX(-1);
   }
   100% {
