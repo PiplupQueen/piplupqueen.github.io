@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron:900);
 #memegame {
-  background-image:  url("http://piplupqueen.github.io/copy.jpg");
+  background-image:  url("http://piplupqueen.github.io/copy.png");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: Orbitron;
@@ -42,6 +43,10 @@
   }
 }
 
+h1:hover {
+    color: pink;
+}
+
 #start {
   animation-name: example;
   animation-duration: 9s;
@@ -51,6 +56,7 @@
   font-size: 2em;
   position: absolute;
   z-index: 1;
+
 }
 
 #fire {
@@ -145,4 +151,33 @@
   animation-name: bounce;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+}
+
+.crate {
+  background-image:  url("http://piplupqueen.github.io/one-does-not-simply-resist-chaika-crate_o_3306753.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  display:none;
+
+}
+
+
+.doge {
+background-image: url("http://vignette2.wikia.nocookie.net/cytus/images/0/05/Doge.png/revision/latest?cb=20150228070252");
+background-size:cover;
+    width: 127px;
+    height: 178px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 48%;
+    left: 51%;
+     display:none;
+
 }
