@@ -46,7 +46,7 @@ body {
   animation-name: example;
   animation-duration: 9s;
   animation-iteration-count: 1;
-  margin-left: 7.3em;
+  margin-left: 25em;
   margin-top: 6em;
   font-size: 2em;
   position: absolute;
@@ -54,7 +54,7 @@ body {
 }
 
 #fire {
-  margin-left: 11em;
+  margin-left: 25em;
   opacity: 0.4;
   margin-top: -6em;
   height: 500px;
@@ -76,7 +76,7 @@ body {
 }
 
 #clickme {
-  margin-left: 19em;
+  margin-left: 25em;
   height: 4em;
   margin-top: 0em;
   position:absolute;
