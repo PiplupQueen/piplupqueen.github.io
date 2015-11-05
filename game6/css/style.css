@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron:900);
-body {
+#memegame {
   background-image:  url("http://piplupqueen.github.io/copy.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -80,8 +80,8 @@ body {
   height: 4em;
   margin-top: 0em;
   position:absolute;
-  animation-name: fadeIn;
-  animation-duration: 120s;
+  animation-name: rawr;
+  animation-duration: 400s;
 }
 
 @keyframes rawr {
